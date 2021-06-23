@@ -1,0 +1,135 @@
+	body{
+        	background-color:#3f1515;
+            margin: 0 10%;
+            font-family: sans-serif;
+        	}
+        .body2 {
+ 			background-color: #3f1515;
+  			margin-right: 10%;
+            		margin-left: 10%;
+  			font-family: Sans-serif;
+  			padding: 2em;
+		}
+        h1{
+        	text-align: center;
+            font-family: serif;
+            font-weight: normal;
+			border-bottom: 1px solid;
+			margin-top: 30px;
+            }
+        h2{
+        	font-family: serif;
+			font-weight: normal;
+            border-bottom: 1px solid;
+			margin-top: 30px;
+            }
+        h3{
+        	font-family: serif;
+			font-weight: normal;
+            border-bottom: 1px solid;
+			margin-top: 20px;
+            }
+h1, h2, h3{
+			color: #ffffff;
+        	}
+         p, li{
+         		color: #f3f3f3;
+          	}
+
+         
+      .all{
+        	display: flex;
+ 			margin-left: auto;
+ 			margin-right: auto;
+  			justify-content: center;
+            padding-top: 2em;
+ 		 	}            
+   .skills{
+        	 margin-right: 2em;
+ 			 border-right: 2px white;
+ 			 padding-right: 2em;
+         	}
+     .info{
+        	 margin-right: 2em;
+ 			 padding-right: 2em;
+		}
+
+	.media{
+         	margin: 1em;
+           	}
+	.media:link, .media:visited {
+              	color: #ffffff;
+ 		background: #cd615d;
+ 		text-decoration: none;
+  		padding: 8px;
+  		border-radius: 4px;
+  		display: inline-block;
+			}
+
+	.media:hover, .media:active {
+             	color: #98130e;
+		background: #dec6c6;
+			}
+
+
+	.samples{
+        		display: flex;
+ 			margin-left: auto;
+ 			margin-right: auto;
+  			justify-content: center;
+            		padding-top: 2em;
+            }
+
+	.school{
+   			margin-right: 2em;
+			border-right: 2px white;
+ 			padding-right: 2em;
+          	}
+ 	.personal{
+ 			margin-right: 2em;
+ 			 padding-right: 2em;
+         	}
+.samples .thumbnail {
+  			text-decoration: none;
+  			margin: 10px;
+  			display: inline-block;
+		}
+
+	.thumbnail:hover{
+  			opacity: 0.3;
+			}
+		}
+
+	.section{
+        	background-color:#3f1515;
+            	margin: 0 10%;
+		text-align: center;
+            	font-family: sans-serif;
+		font-weight: normal;
+		font-color: f3f3f3;
+            	border-bottom: 1px solid;
+		margin-top: 30px;
+            	}
+	.footer{
+         	margin: 1em;
+           	}
+	.footer:link, .footer:visited {
+              	color: #ffffff;
+ 		background: #cd615d;
+ 		text-decoration: none;
+  		padding: 8px;
+  		border-radius: 4px;
+  		display: inline-block;
+			}
+
+	.footer:hover, .footer:active {
+             	color: #98130e;
+		background: #dec6c6;
+			}
+
+		.p{
+		color: #f3f3f3;
+			}
+		.p:hover{
+		color: #cd615d;
+			}
