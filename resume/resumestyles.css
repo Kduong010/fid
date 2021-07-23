@@ -1,0 +1,109 @@
+@charset "UTF-8";
+body{
+	font-family: sans-serif;
+	font-size: 100%;
+	line-height: 175%;
+	color: #ffffff;
+	background-color:#3f1515;
+        margin: 0 10% 10% 10%;
+
+}
+header{
+	text-align: center;
+	border-bottom: 1px solid;
+	margin-top: 30px;
+}
+#bio p{
+	text-decoration: none;
+	text-align: left;
+	margin: 3% 10%;
+}
+h1{
+	font-size: 50px;
+	text-transform: uppercase;
+	line-height: 100%;
+	background-color: rgba(255,255,255,.1);
+	padding: .5em 1em .5em;
+}
+h1,h2,h3{
+	font-family: "Raleway", sans-serif;
+	font-weight: normal;
+	text-align: center;
+}
+h2{
+	padding: .5em;
+	text-transform: uppercase;
+	background-color: rgba(255,255,255,.1);
+}
+
+
+/*****Skills and Software Info*****/
+
+.info{
+	display: flex;
+ 	margin-left: auto;
+ 	margin-right: auto;
+  	justify-content: center;
+	text-align: center;
+}
+ul,li{
+	text-decoration: none;
+	text-align: left;
+}
+.skills, .software{
+	margin: 2em;
+	padding: 1em;
+}
+
+/*****Social Media*****/
+.social{
+	text-align: center;
+}
+.media{
+        margin: 1.5em;
+	margin-top: 3em;
+	margin-bottom: 3em;
+}
+.media:link, .media:visited {
+	color: #ffffff;
+	background: #cd615d;
+	text-decoration: none;
+	padding: 8px;
+	border-radius: 4px;
+	display: inline-block;
+}
+
+.media:hover, .media:active {
+	color: #98130e;
+	background: #dec6c6;
+}
+
+/*****Work Samples*****/
+
+#work p{
+	text-decoration: none;
+	text-align: left;
+	margin: 3% 10%;
+	padding-bottom: 1.5em;
+	border-bottom: 1px solid;
+}
+.samples{
+	display: flex;
+ 	margin-left: auto;
+ 	margin-right: auto;
+  	justify-content: center;
+}
+.school, .personal{
+	margin: 2em;
+	margin-top: -.5em;
+}
+.thumbnail {
+  	text-decoration: none;
+  	margin: 10px;
+	margin-left: auto;
+	margin-right: auto;
+  	display: inline-block;
+}
+.thumbnail:hover{
+  	opacity: 0.3;
+}
