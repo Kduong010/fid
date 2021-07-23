@@ -1,0 +1,79 @@
+@charset "UTF-8";
+body {
+  	font-family: "Montserrat", sans-serif;
+  	font-size: 100%;
+	line-height: 175%;
+	background-color: #f8e1bb;
+	margin: 0 15% 0;
+}
+header {
+	margin-top: -20px;
+	padding: 1em 2em 1em;
+	text-align: center;
+	background-color: rgba(255,255,255,.2);
+}
+
+a {
+	text-decoration: none;
+}
+a:link {
+	color: #192957;
+}
+a:visited {
+	color: #937393;
+}
+a:focus, a:hover {
+	color: #f39524;
+}
+a:active {
+	color: #f9d850;
+}
+
+h1 {
+	font-family: "Zen Tokyo Zoo", sans-serif;
+	font-weight: normal;
+	font-size: 40px;
+	color: #00134b;
+	text-transform: uppercase;
+	line-height: 100%;
+
+}
+h2 {
+	color: #192957;
+	font-size; 1em;
+}
+dt {
+  font-weight: bold;
+}
+strong {
+  font-style: italic;
+}
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+#info p {
+	font-style: italic;
+	border-bottom: 1px solid #57b1dc;
+	margin-top:-20px;
+	padding-bottom: 1em;
+}
+.price {
+  font-family: Georgia, serif;
+  font-style: italic;
+}
+p.warning, sup {
+  font-size: small;
+}
+.label {
+	font-style: normal;
+	font-weight: bold;
+	font-variant: small-caps;
+	color: #192957;
+}
+
+h2 + p {
+  text-align: center;
+  font-style: italic;
+}
