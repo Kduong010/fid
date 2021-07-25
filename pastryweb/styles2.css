@@ -1,0 +1,231 @@
+@charset "UTF-8";
+
+body{
+	font-family: sans-serif;
+	font-size: 100%
+	line-height: 175%;
+	background: #ffffff;
+}
+.all{
+	margin: 0 10%;
+}
+
+header{
+	margin-top: 0;
+	padding: 3em;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.header1{
+	background-image: url("images/pastryaesthetic.jpg");
+}
+.header2{
+	background-image: url("images/macaroons2.jpg");
+}
+.header3{
+	background-image: url("images/pinkcupcakes.jpg");
+}
+
+h1{
+	color: #FFF;
+	text-align: center;
+	font-family: "Lobster Two", serif;
+	font-weight: normal;
+	font-size: 90px;
+	padding: 0;
+	margin: 0;
+}
+
+h2, h3{
+	font-family: "Zilla Slab", serif;
+	font-weight: normal;
+	text-transform: uppercase;
+}
+
+nav{
+	width: 100%;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	color: #FFF;
+	text-align: left;
+	line-height: 0.9;
+	background-color: rgba(255,255,255,.5);
+	
+}
+
+.block{
+	font-family: "Zilla Slab", serif;
+	font-size: 25px;
+	position: static;
+        margin: 1em;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	text-align: center;
+}
+.block:link, .block:visited {
+	color: #ffffff;
+	background: #55B1B7;
+	text-decoration: none;
+	padding: 8px;
+	border-radius: 4px;
+	display: inline-block;
+}
+
+.block:hover, .block:active {
+	color: #55B1B7;
+	background: #9FDCE0;
+}
+
+/***************BODY ELEMENT***************/
+/***About***/
+.about{
+	line-height: 175%;
+	margin: 2em 0;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 1.5em 0;
+}
+.about h2{
+	text-align: center;
+	color: #296F74;
+	padding-top: 2em;
+}
+.about p{
+	margin: 0 20px;
+	text-align: left;
+}
+
+#img img{
+	height: 50%;
+	width: 50%;
+	margin: 0 12px;
+	flex-grow: 0;
+	flex-shrink: 0;
+}
+
+#img{
+	display:flex;
+	align-items: left;
+}
+
+#bio{
+	padding: 0 2px;
+	position: static;
+}
+
+/***Menu***/
+#menu{
+	color: #296F74;
+	text-align: center;
+	letter-spacing: 2px;
+	padding-bottom: 1em;
+	padding-top: 1em;
+	border-bottom: 1px solid #55B1B7;
+}
+.pies, .pastry, .desserts{
+	margin-top: 2em;
+	margin-bottom: 2em;
+}
+.desserts{
+	margin-bottom: 5em;
+}
+
+.pies h3, .pastry h3, .desserts h3{
+	text-align: left;
+	margin: 0 5em 0 1em;
+	color: #296F74;
+}
+.pies p, .pastry p, .desserts p{
+	text-align: left;
+	line-height: 150%;
+}
+.pies p,.desserts p{
+	margin: 0 5em 0 1em;
+}
+.pastry p{
+	margin: 0 10em 0 1em;
+}
+.crop img{
+	width: 100px;
+	height: 100px;
+	overflow: hidden;
+	margin-left: auto;
+	margin-right: auto;
+	display: inline-block;
+}
+/***Catering***/
+.cater{
+	text-align: center;
+}
+.cater h2{
+	padding: 10px 0;
+	font-size: 150%;
+	color: #296F74;
+}
+#caterp{
+	padding: 0 5em;
+	padding-bottom: 50px;
+	margin: 0px;
+}
+#catersec{
+	background-color:#DCF4F5;
+	padding: 1em 0;
+	margin: 0 -20em;
+}
+
+/**************BODY ELEMENT END**************/
+
+footer {
+	font-family: "Zilla Slab", serif;
+	border-top: 1px solid #55B1B7;
+	padding-top: 1em;
+	padding-bottom: 1em;
+	background-image: url("images/pastrybread2.jpg");
+	background-attachment: static;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: #fff;
+	letter-spacing: 2px;
+}
+footer img {
+	width: 40px;
+	height: 40px;
+	margin-left: .5em;
+	margin-right: .5em;
+}
+#footer h2{
+	color: #87DAE0;
+	font-weight: bold;
+	font-size: 25px;
+}
+.address{
+	display: flex;
+	margin-left: auto;
+	margin-right: auto;
+}
+.contact, .hours{
+	margin: 10px 15%;
+	flex: 1;
+	font-size: 15px;
+}
+.hours{
+	text-align: left;
+}
+.contact{
+	text-align: right;
+}
+.underline{
+	text-decoration: underline;
+	text-align: left;
+	font-weight: bold;
+}
+.social{
+	text-align: center;
+	font-family: "Zilla Slab", serif;
+	font-weight: normal;
+	text-transform: uppercase;
+	font-size: 25px;
+}

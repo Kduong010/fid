@@ -1,0 +1,213 @@
+@charset "UTF-8";
+
+body{
+	font-family: sans-serif;
+	font-size: 100%
+	line-height: 175%;
+	background: #ffffff;
+}
+.all{
+	margin: 0 10%;
+}
+
+header{
+	margin-top: 0;
+	padding: 10em;
+	background-image: url("images/pierose.jpg");
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+h1, #info{
+	color: #FFF;
+	text-align: center;
+}
+h1{
+	font-family: "Lobster Two", serif;
+	font-weight: normal;
+	font-size: 90px;
+	padding: 0;
+	margin: 0;
+}
+#info{
+	font-family: "Zilla Slab", serif;
+	font-weight: normal;
+	text-transform: uppercase;
+	font-size: 20px;
+	letter-spacing: 2px;
+	padding: 0;
+	margin: 0;
+}
+h2, h3{
+	font-family: "Zilla Slab", serif;
+	font-weight: normal;
+	text-transform: uppercase;
+}
+
+nav{
+	width: 100%;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	color: #FFF;
+	text-align: left;
+	line-height: 0.9;
+	background-color: rgba(255,255,255,.5);
+	
+}
+
+.block{
+	font-family: "Zilla Slab", serif;
+	font-size: 25px;
+	position: static;
+        margin: 1em;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	text-align: center;
+}
+.block:link, .block:visited {
+	color: #ffffff;
+	background: #55B1B7;
+	text-decoration: none;
+	padding: 8px;
+	border-radius: 4px;
+	display: inline-block;
+}
+
+.block:hover, .block:active {
+	color: #55B1B7;
+	background: #9FDCE0;
+}
+
+/***************BODY ELEMENT***************/
+
+.category{
+	text-align: center;
+	margin-right: auto;
+	margin-left: auto;
+	padding-top: 8em;
+	padding-bottom: 8em;
+	width: 100%;
+	border-collapse: seperate;
+	border-spacing: 10px 20px;
+}
+.category th, .category td{
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.category th{
+	font-family: "Zilla Slab", serif;
+	font-weight: normal;
+	text-transform: uppercase;
+	font-size: 25px;
+}
+.category td{
+	color: #646464;
+}
+
+	/***BIO***/
+.bio{
+	text-align: center;
+	border-collapse: collapse;
+	width: 100%;
+	padding-top: 2em;
+	padding-bottom: 2em;
+}
+
+/*.bio table, .bio th, .bio td{
+	border: 1px solid;
+}*/
+
+.bio tr:nth-child(odd){
+	background-color: #DCF4F5;
+}
+
+.bio h2, .bio h3{
+	color: #296F74;
+}
+.bio h2{
+	font-size: 200%;
+}
+
+.bio a{
+	font-size: 175%;
+}
+
+#bio p{
+	margin: 0 50px;
+	line-height: 1.5;
+}
+
+	/***REVIEW***/
+#review{
+	font-size: 130%;
+	line-height: 1.3;
+	
+}
+#review small{
+	text-transform: uppercase;
+	font-weight: normal;
+	color: #646464;
+	font-size: 50%;
+}
+
+.checked{
+  color: orange;
+}
+
+/**************BODY ELEMENT END**************/
+
+footer {
+	font-family: "Zilla Slab", serif;
+	border-top: 1px solid #55B1B7;
+	padding-top: 1em;
+	padding-bottom: 1em;
+	background-image: url("images/pastrybread2.jpg");
+	background-attachment: static;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: #fff;
+	letter-spacing: 2px;
+}
+footer img {
+	width: 40px;
+	height: 40px;
+	margin-left: .5em;
+	margin-right: .5em;
+}
+#footer h2{
+	color: #87DAE0;
+	font-weight: bold;
+	font-size: 25px;
+}
+.address{
+	display: flex;
+	margin-left: auto;
+	margin-right: auto;
+}
+.contact, .hours{
+	margin: 10px 15%;
+	flex: 1;
+	font-size: 15px;
+}
+.hours{
+	text-align: left;
+}
+.contact{
+	text-align: right;
+}
+.underline{
+	text-decoration: underline;
+	text-align: left;
+	font-weight: bold;
+}
+.social{
+	text-align: center;
+	font-family: "Zilla Slab", serif;
+	font-weight: normal;
+	text-transform: uppercase;
+	font-size: 25px;
+}

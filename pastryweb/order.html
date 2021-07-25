@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>A Pâtisserie Place</title>
+	<link href="https://fonts.googleapis.com/css?family=Zilla+Slab:wght@300" rel="stylesheet" type="text/css">
+	<link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet" type="text/css">
+	<link href="https://fonts.googleapis.com/css?family=Lobster+Two" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="styles3.css">
+</head>
+
+<body>
+<!---NAVIGATION--->
+	<nav>
+	<center>
+	<a class="block" href="index.html">Home</a>
+	<a class="block" href="about.html">About</a>
+	<a class="block" href="menu.html">Menu</a>
+	<a class="block" href="catering.html">Catering</a>
+	<a class="block" href="locations.html">Locations</a>
+	<a class="block" href="contact.html">Contact</a>
+	<a class="block" href="order.html" target="order">Order Now</a>
+	</center>
+	</nav>
+
+<!-----HEADER----->
+<header>
+	<h1>
+		Welcome
+	</h1>
+</header>
+
+<div class="all">
+
+<!-----ORDER HERE----->
+<form action="http://www.apatisserieplace.com/ordernow.php" method="post">
+<h2 id="color">Your Information</h2>
+<fieldset>
+  <ul>
+    <li><label for="form-name">Name:</label> <input type="text" name="customername" id="form-name"></li>
+    <li><label for="form-address">Address:</label> <input type="text" name="address" id="form-address"></li>
+    <li><label for="form-tel">Telephone Number:</label> <input type="tel" name="telephone" id="form-tel"></li>
+    <li><label for="form-email">Email: <input type="email" name="email" id="form-email"></label></li>
+    <li>Order Type<br>
+  <select name="order" size="1">
+    <option>Delivery</option>
+    <option>Pick up</option>
+    <option>Curbside</option>
+  </select></li>
+  </ul>
+</fieldset>
+
+<h2 id="color">Menu Choices</h2>
+
+<fieldset>
+    <legend>Pies</legend>
+    <ul>
+      <li><label><input type="checkbox" name="pies[]" value="blueberry pie"> Blueberry Pie</label></li>
+      <li><label><input type="checkbox" name="pies[]" value="mud pie"> Mud Pie</label></li>
+      <li><label><input type="checkbox" name="pies[]" value="shoofly pie"> Shoo Fly Pie</label></li>
+      <li><label><input type="checkbox" name="pies[]" value="cherry pie"> Cherry Pie</label></li>
+      <li><label><input type="checkbox" name="pies[]" value="apple pie"> Apple Pie</label></li>
+      <li><label><input type="checkbox" name="pies[]" value="keylime pie"> Keylime Pie</label></li>
+      <li><label><input type="checkbox" name="pies[]" value="chiffon pie"> Chiffon Pie</label></li>
+      <li><label><input type="checkbox" name="pies[]" value="galette"> Galette</label></li>
+    </ul>
+  </fieldset>
+
+  <fieldset>
+  <legend>Pastries</legend>
+    <ul>
+      <li><label><input type="checkbox" name="pasteries[]" value="star cake"> Blueberry Star Cake</label></li>
+      <li><label><input type="checkbox" name="pasteries[]" value="apple turnover"> Apple Turnover</label></li>
+      <li><label><input type="checkbox" name="pasteries[]" value="croissant"> Croissant</label></li>
+      <li><label><input type="checkbox" name="pasteries[]" value="madelines"> Madelines</label></li>
+      <li><label><input type="checkbox" name="pasteries[]" value="eclair"> Eclair</label></li>
+      <li><label><input type="checkbox" name="pasteries[]" value="bear claw"> Bear Claw</label></li>
+      <li><label><input type="checkbox" name="pasteries[]" value="canele"> Canele</label></li>
+      <li><label><input type="checkbox" name="pasteries[]" value="palmier"> Palmier</label></li>
+      <li><label><input type="checkbox" name="pasteries[]" value="macarons"> Macarons</label></li>
+      <li><label><input type="checkbox" name="pasteries[]" value="chou a la creme"> Chou a la Creme</label></li>
+      <li><label><input type="checkbox" name="pasteries[]" value="meringue"> Meringue</label></li>
+    </ul>
+  </fieldset>
+
+  <fieldset>
+    <legend>Desserts</legend>
+    <ul>
+      <li><label><input type="checkbox" name="desserts[]" value="fruit tart"> Fruit Tart</label></li>
+      <li><label><input type="checkbox" name="desserts[]" value="tarte tatin"> Tarte Tatin</label></li>
+      <li><label><input type="checkbox" name="desserts[]" value="scones"> Scones</label></li>
+      <li><label><input type="checkbox" name="desserts[]" value="creme brulee"> Creme Brulee</label></li>
+      <li><label><input type="checkbox" name="desserts[]" value="sponge cake"> Sponge Cake</label></li>
+      <li><label><input type="checkbox" name="desserts[]" value="chantilly cake"> Chantilly Cake</label></li>
+      <li><label><input type="checkbox" name="desserts[]" value="charlotte"> Charlotte</label></li>
+      <li><label><input type="checkbox" name="desserts[]" value="opera cake"> Opera Cake</label></li>
+      <li><label><input type="checkbox" name="desserts[]" value="financier"> Financier</label></li>
+      <li><label><input type="checkbox" name="desserts[]" value="strawberry shortcake"> Strawberry Shortcake</label></li>
+    </ul>
+  </fieldset>
+<h2 id="color">More Info</h2>
+  <fieldset>
+	<p>Add optional instructions<br>
+    <textarea name="instructions" rows="4" cols="60" maxlength="400" id="form-story" placeholder="No more than 400 characters long"></textarea></li>
+  	</p>
+	</select>
+
+</fieldset> <!-- closes 'Pizza Specs' fieldset -->
+
+<p><input type="submit" value="Checkout!">
+<input type="reset"></p>
+</form>
+
+<!-----ORDER HERE END------>
+</div>
+
+<!---FOOTER-->
+<footer>
+	<section class="address">
+
+		<section class="hours">
+		<div id="footer"><h2>Store Times</h2></div>
+			<span class="underline">Orlando</span>
+				<p>Mon-Sat: 6am-9pm</p>
+				<p>Sun: 10am-7pm</p>
+			<span class="underline">Miami</span>
+				<p>Mon-Wed: 6am-9pm</p>
+				<p>Thur-Fri: 6am-8pm</p>
+				<p>Sat: 5am-10pm</p>
+				<p>Sun: 10am-7pm</p>
+			<span class="underline">Jacksonville</span>
+				<p>Mon-Sat: 6am-9pm</p>
+				<p>Sun: 10am-7pm</p>
+		</section>
+
+		<section class="contact">
+		<div id="footer"><h2>Contacts</h2></div>
+			<span class="underline">Orlando</span>
+				<p>000 Redbug Road Unit: 000</p>
+				<p>Orlando, FL 00000</p>
+				<p>Call Us: ###-###-####</p>
+			<span class="underline">Miami</span>
+				<p>00 N Apple Ave Ste 0000</p>
+				<p>Orlando, FL 00000</p>
+				<p>Call Us: ###-###-####</p>
+			<span class="underline">Jacksonville</span>
+				<p>000 Flag Road Unit: 0000</p>
+				<p>Orlando, FL 00000</p>
+				<p>Call Us: ###-###-####</p>
+		</section>
+	</section>
+	<div class="social">
+		<p>
+			Follow Us!
+		</p>
+		<p>
+			<img src="icons/twitter.svg" alt="twitter">
+			<img src="icons/facebook.svg" alt="facebook">
+			<img src="icons/instagram.svg" alt="instagram">	
+		</p>
+	</div>
+</footer>
+
+</body>
+</html>

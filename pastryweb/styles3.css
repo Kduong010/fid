@@ -1,0 +1,171 @@
+@charset "UTF-8";
+
+body{
+	font-family: sans-serif;
+	font-size: 100%
+	line-height: 175%;
+	background: #ffffff;
+}
+.all{
+	margin: 0 10%;
+}
+
+header{
+	margin-top: 0;
+	padding: 3em;
+	border-bottom: 1px solid #55B1B7;
+}
+
+h1{
+	color: #55B1B7;
+	text-align: center;
+	font-family: "Lobster Two", serif;
+	font-weight: normal;
+	font-size: 75px;
+	padding: 0;
+	margin: 0;
+}
+h2, h3{
+	font-family: "Zilla Slab", serif;
+	font-weight: normal;
+	text-transform: uppercase;
+}
+h2{
+	color: #296F74;
+}
+
+nav{
+	width: 100%;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	color: #FFF;
+	text-align: left;
+	line-height: 0.9;
+	background-color: rgba(255,255,255,.5);
+	
+}
+
+.block{
+	font-family: "Zilla Slab", serif;
+	font-size: 25px;
+	position: static;
+        margin: 1em;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	text-align: center;
+}
+.block:link, .block:visited {
+	color: #ffffff;
+	background: #55B1B7;
+	text-decoration: none;
+	padding: 8px;
+	border-radius: 4px;
+	display: inline-block;
+}
+
+.block:hover, .block:active {
+	color: #55B1B7;
+	background: #9FDCE0;
+}
+
+/***************BODY ELEMENT***************/
+
+/*Header Color*/
+#color{
+	color: #296F74;
+}
+/**Location**/
+table{
+	width: 100%
+	padding: 1em 0;
+	padding-bottom: 5em;
+}
+table, tr, th, td{
+	border-collapse: seperate;
+	border-spacing: 10px;
+}
+
+table p{
+	margin: 0 2em;
+	text-align: center;
+	line-height: 175%;
+}
+table th{
+	padding: 2em 0; 
+}
+
+#style{
+	font-weight: bold;
+	text-align: center;
+	color: #296F74;
+}
+
+/**Contact**/
+#contact{
+	text-align: left;
+	padding: 2em 0;
+}
+
+/**Order**/
+form{
+	padding: .5em 0;
+	margin: 2em 0;
+}
+ol, ul { 
+	list-style-type: none;
+}
+
+/**************BODY ELEMENT END**************/
+
+footer {
+	font-family: "Zilla Slab", serif;
+	border-top: 1px solid #55B1B7;
+	padding-top: 1em;
+	padding-bottom: 1em;
+	background-image: url("images/pastrybread2.jpg");
+	background-attachment: static;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: #fff;
+	letter-spacing: 2px;
+}
+footer img {
+	width: 40px;
+	height: 40px;
+	margin-left: .5em;
+	margin-right: .5em;
+}
+#footer h2{
+	color: #87DAE0;
+	font-weight: bold;
+	font-size: 25px;
+}
+.address{
+	display: flex;
+	margin-left: auto;
+	margin-right: auto;
+}
+.contact, .hours{
+	margin: 10px 15%;
+	flex: 1;
+	font-size: 15px;
+}
+.hours{
+	text-align: left;
+}
+.contact{
+	text-align: right;
+}
+.underline{
+	text-decoration: underline;
+	text-align: left;
+	font-weight: bold;
+}
+.social{
+	text-align: center;
+	font-family: "Zilla Slab", serif;
+	font-weight: normal;
+	text-transform: uppercase;
+	font-size: 25px;
+}
